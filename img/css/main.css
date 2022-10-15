@@ -1,0 +1,43 @@
+#wrap{ width: 1850px; margin: 0 auto; border: 1px solid red;}
+
+#sct1{ 
+    width: 1920px; height: 1080px; 
+    background-image: url(C:\Users\krlaw\Desktop\2week\img\Slide_16_9_-_49.png);}
+#sct1_text{ text-align: center; margin-top: 100px;}
+#sct1_text .title{ font-size: 40px; font-weight: bold; padding : 20px 0;}
+.text{font-size: 28px;}
+#dm_character{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); perspective: 400px; margin-top: 80px;}
+#dm_character p{ padding: 150px 45px 0 45px; text-align: center;}
+ul{ display: flex; justify-content: space-between; width: 1400px; list-style: none;}
+.dm_1{ margin:100% 0 0 0 ; border: 1px solid black; border-radius: 10em; width: 219px; height: 339px; }
+.dm_2{ border: 1px solid black; border-radius: 3em; width: 418px; height: 648px;}
+.dm_1{top: 50%; left: 50%;}
+
+/* section2 */
+#sct2{height: 1080px; width: 100%; overflow: hidden; background-color: rgb(201, 201, 201); position: relative;}
+#sct2 h2{font-size: 40px; color: white; padding: 180px 50px 0 0;}
+#sct2 .character2{border: 1px solid black; background: white; position: relative; border-radius: 10em; position: absolute; z-index: 2;}
+#sct2 .ytb{position: absolute; display: flex; top: 260px; left: 387px; z-index: 3;}
+#sct2 #flout{width: 100%; height: 216px; background: #BCBCBC; bottom: 0px;position: absolute;}
+#sct2 .mount{width: 845px; height: 223px; background: #6c6969; border-radius: 140% 140% 40% 20%; position: absolute;}
+
+
+/* section3 */
+#sct3{ width: 100%; height: 1080px; background-color: rgb(236, 236, 236);}
+#sct3 h2{font-size: 40px; text-align: center; padding-top: 115px; font-weight: bold;}
+#sct3 .sct3main{display: flex; padding-top: 200px;}
+#sct3 .circle3{width: 432px; height: 432px; border-radius: 50%; background: gray; position: relative; margin-top: 40px;}
+#sct3 .circle3 p{font-size: 22px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+#sct3 .sct3Text{width: 900px; font-size: 28px; text-align: center; padding-top: 200px; padding-left: 30px;}
+#sct3 #graptable{}
+#sct3 #graptable p{text-align: center; font-size: 28px; padding-top: 30px;}
+#sct3 #grapBox{display: flex; width: 470px; align-items: flex-end;}
+#sct3 #grapBox .grap{width: 77px; background: rgb(70, 70, 70);}
+#sct3 #grapBox .grapdot{width: 107px; height: 617px; border: 4px dashed red; display: flex; justify-content: center; align-items: flex-end;}
+
+/* section4 */ 
+#sct4{width: 100%; height: 1080px; background: #d9d9d9; position: relative;}
+#sct4 .sct4TextBox{text-align: center; padding-top: 85px;}
+.sct4TextBox h2{font-size: 50px; padding-bottom: 110px;}
+.sct4TextBox p{font-size: 28px;}
+#sct4 .character2{border: 1px solid black; background: white; border-radius: 10em; position: absolute; z-index: 2;}
