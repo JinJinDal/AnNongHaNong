@@ -41,8 +41,6 @@ next_btn.setAttribute("id", "next_btn");
 next_btn.innerText = "next";
 document.getElementById("ImgSet").appendChild(next_btn);
 
-
-// 이미지 움직임 함수 선언
 var aniFunction = function(){
     document.getElementById("text" + moveNum).classList.remove("active");
     document.getElementById("text" + moveNum).classList.add("activeOut");
