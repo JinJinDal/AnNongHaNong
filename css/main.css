@@ -1,8 +1,7 @@
+
 #wrap{ width: 1850px; margin: 0 auto; border: 1px solid red;}
 
-#sct1{ 
-    width: 1920px; height: 1080px; 
-    background-image: url(C:\Users\krlaw\Desktop\2week\img\Slide_16_9_-_49.png);}
+#sct1{  width: 1920px; height: 1080px; }
 #sct1_text{ text-align: center; margin-top: 100px;}
 #sct1_text .title{ font-size: 40px; font-weight: bold; padding : 20px 0;}
 .text{font-size: 28px;}
