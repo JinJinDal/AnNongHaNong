@@ -9,7 +9,7 @@
 #sct1 .backImg{bottom: 0; position: absolute; z-index: -1;}  
 #sct1 #cloudBox .o ,.t{position: absolute; top: 0;}
 #sct1 #imgBox1{display: flex; justify-content: center; align-items: flex-end; padding-top: 280px;}
-#sct1 #imgBox1 .girl1{position: absolute; left: 340px;height: 0; opacity: 0;}
+#sct1 #imgBox1 .girl1{position: absolute; left: 340px;}
 #sct1 #imgBox1 .girl1.active{opacity: 1; height: 494px;}
 #sct1 #imgBox1 img{height: 505px;}
 
