@@ -1,13 +1,31 @@
-// window.addEventListener("DOMContentLoaded",function(){
-//     window.onscroll = function(){
-//         console.log(window.scrollY);
-//         if(window.scrollY > 100){
-//             document.getElementsByClassName("girl1").classList.add('active');
-//         }else{
-//             // document.getElementsByClassName("text_box").classList.remove("active");
-//         }
-//     }
-// });
+window.addEventListener("DOMContentLoaded",function(){
+    window.onscroll = function(){
+        if(window.scrollY > 50){
+            console.log(window.scrollY);
+            document.getElementById("girl1").classList.add('active');
+            document.getElementById("man1").classList.add('active');
+            document.getElementById("senior1").classList.add('active');
+        }else{
+            
+        }
+
+        if(window.scrollY > 5244){
+            document.getElementById("bus").classList.add('active');
+        }
+
+        if(window.scrollY > 5460){
+            document.getElementById("bus").classList.remove('active');
+            document.getElementById("bus").classList.add('active2');
+        }
+
+        if(window.scrollY > 7000){
+            document.getElementById("fail8").classList.add('active');
+            document.getElementById("sizeUp").classList.add('active');
+        }
+    }
+
+    
+});
 
 // $(document).ready(function(){
 //     $(window).scroll({

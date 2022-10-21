@@ -7,10 +7,21 @@
 /* section1 */
 #sct1{position: relative; height: 1080px;}
 #sct1 .backImg{bottom: 0; position: absolute; z-index: -1;}  
-#sct1 #cloudBox .o ,.t{position: absolute; top: 0;}
+#sct1 #cloudBox #o ,#t{position: absolute; transition: all 1s ease;}
+#o{top: 80px; left: 171px;}
+#o.active{left: 171px;}
+#t{top: 111px; right: 181px;}
+#t.active{right: 181px;}
+
 #sct1 #imgBox1{display: flex; justify-content: center; align-items: flex-end; padding-top: 280px;}
-#sct1 #imgBox1 .girl1{position: absolute; left: 340px;}
-#sct1 #imgBox1 .girl1.active{opacity: 1; height: 494px;}
+/* section1Character */
+#sct1 #imgBox1 #girl1{position: absolute; z-index: 2; left: 340px; opacity: 0; transition: all 2s ease; bottom: 130px;}
+#sct1 #imgBox1 #man1{position: absolute; left: 520px; opacity: 0; transition: all 2s ease; bottom: 140px;}
+#sct1 #imgBox1 #senior1{position: absolute; right: 520px; opacity: 0; transition: all 2s ease; bottom: 130px;}
+
+#sct1 #imgBox1 #girl1.active{opacity: 1; height: 494px; bottom: 90px;}
+#sct1 #imgBox1 #man1.active{opacity: 1; height: 494px; bottom: 110px;}
+#sct1 #imgBox1 #senior1.active{opacity: 1; height: 494px; bottom: 90px;}
 #sct1 #imgBox1 img{height: 505px;}
 
 /* section2 */
@@ -46,14 +57,16 @@
 #sct5 .imgBox5 {display: flex; position: relative; align-items: center; justify-content: center; padding-top: 80px;}
 
 /* section6 */
-#sct6{height: 1080px; position: relative; }
+#sct6{height: 1080px; position: relative; overflow: hidden;}
 #sct6 #cloud6{display: flex; justify-content: center; padding-top: 172px;}
 #sct6 .textBox6{padding-top: 50px;}
-#sct6 h2{text-align: center; font-size: 48px;}
-#sct6 p{text-align: center; font-size: 20px; padding-top: 10px;}
+#sct6 h2{text-align: center; font-size: 48px; font-weight: bold;}
+#sct6 p{text-align: center; font-size: 20px; padding-top: 50px;}
 #sct6 .backimg{align-items: flex-end; padding-top: 315px; position: absolute;}
-#sct6 .bus{position: absolute; padding-top: 295px; padding-left: 42px;}
-#sct6 .bus img{width: 601px; height: 252px;}
+#sct6 #bus{position: absolute; padding-top: 295px; left: -520px; transition: all 3s ease;}
+#sct6 #bus.active{left: 660px;}
+#sct6 #bus.active2{left: 2200px;}
+#sct6 #bus img{width: 601px; height: 252px;}
 
 /* section7 */
 #sct7{height: 1080px; background-color: #f5de90; position: relative;}
@@ -66,6 +79,28 @@
 #sct8 p {text-align: center; font-size: 25px; padding-top: 147px;} 
 #sct8 #imgBox8{display: flex; align-items: center; justify-content: center; padding-top: 250px;}
 #sct8 #imgBox8 .imgCenter{justify-content: center;}
+#sct8 #imgBox8 #fail8{padding-left: 10px; position: absolute; top: 280px;}
+#sct8 #imgBox8 #fail8.active{ animation: sky 1s ease-in-out forwards;}
+@keyframes sky {
+    0%{
+        padding-left: 5px;
+    }
+    100%{
+        padding-left: 360px;
+    }
+}
+#sct8 #imgBox8 #fail8 #sizeUp{height: 159px;}
+#sct8 #imgBox8 #fail8 #sizeUp.active{animation: sizeUp 1s forwards; align-items: flex-end;}
+@keyframes sizeUp{
+    0%{
+        height: 30px;
+    }50%{
+        height: 159px;
+    }100%{
+        height: 30px;
+    }
+}
+
 
 /* section9 */
 #sct9{height: 1080px;}
@@ -83,9 +118,40 @@
 
 /* section11 */
 #sct11{height: 1080px; position: relative;}
-#sct11 #textBox11{display: flex; align-items: flex-start; justify-content: center;}
+#sct11 #textBox11{display: flex; align-items: flex-start; justify-content: center; padding-bottom: 330px;}
 #sct11 #textBox11 .circle{width: 64px; height: 64px; background-color: #47c4fb; border-radius: 50%; position: absolute; left: 385px; top: -24px;}
 #sct11 #textBox11 h2{font-size: 40px; font-weight: bolder; padding-right: 63px; z-index: 2;}
 #sct11 #textBox11 p{font-size: 25px;}
-#sct11 #imgBox11{display: flex; align-items: flex-end; justify-content: center; padding-top: 300px;}
-#sct11 #textBoxBundle .box11{background-color: #e3f2ff; height: 168; width: 354px; border-radius: 20%;}
+#sct11 #imgBox11{display: flex; align-items: flex-end; justify-content: center;}
+#sct11 #textBoxBundle{}
+#sct11 #textBoxBundle .box11{background-color: #e3f2ff; height: 168px; width: 354px; border-radius: 20px; position: absolute; left: 210px;}
+#sct11 #textBoxBundle .box11::after{content: ''; position: absolute; right: -40px; top: 50%; margin-top: 84px; border-top: -10px solid transparent; border-right: 109px solid transparent; border-bottom: 35px solid transparent; border-left: 35px solid #e3f2ff;}
+#sct11 #textBoxBundle .box11 p{font-size: 20px; padding: 35px 37px; text-align: center; line-height: 180%;}
+
+/* section12 */
+#sct12{height: 1080px; position: relative; margin-top: 200px;}
+#sct12 #bundle12{padding-top: 250px; display: flex;}
+#sct12 #textBox12{padding:62px 439px 0 266px;}
+#sct12 #textBox12 img{height: 648px; width: 648px;}
+#sct12 #textBox12 p{position: absolute; font-size: 20px;line-height: 200%;}
+#sct12 #textBox12 .first{left: 200px; top: 150px;}
+#sct12 #textBox12 .second{left: 980px; bottom: 195px; text-align: right;}
+
+/* section13 */
+#sct13{height: 1080px;}
+#sct13 #mainText13{display: flex; justify-content: center; position: relative; font-size: 20px; padding-bottom: 310px;}
+#sct13 #mainText13 .circle{width: 64px; height: 64px; border-radius: 50%; background-color: #47C4FB; position: absolute; top: -32px; left: 490px; z-index: -1;}
+#sct13 #mainText13 h2{font-size: 40px; font-weight: bold;}
+#sct13 #bundle13{display: flex; justify-content: center;}
+#sct13 #bundle13 #textBox13{left: 590px; width: 378px; height: 186px; border-radius: 20px; background-color: #e3f2ff; text-align: center; line-height: 180%; font-size: 20px; position: absolute;}
+#sct13 #bundle13 #textBox13::after{content: ''; position: absolute; right: -40px; top: 50%; margin-top: 84px; border-top: -10px solid transparent; border-right: 340px solid transparent; border-bottom: 35px solid transparent; border-left: 35px solid #e3f2ff;}
+#sct13 #bundle13 #textBox13 p{padding: 35px 35px;}
+#sct13 #bundle13 #imgBox13{display: flex; align-items: flex-end; position: relative;}
+#sct13 #bundle13 #imgBox13 .MainCharacter13{}
+#sct13 #bundle13 #imgBox13 .grassG, .sheepG{display: flex;}
+/* #sct13 #bundle13 #imgBox13 .sheepG img{ position: absolute;} */
+
+/* section14 */
+#sct14{height: 1080px; position: relative;}
+#sct14 #bundle14{display: flex; justify-content: center;}
+#sct14 #bundle14 #textBox14{padding:62px 439px 0 266px;}
