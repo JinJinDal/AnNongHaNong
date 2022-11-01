@@ -13,9 +13,10 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("bus").classList.add('active');
         }
 
-        if(window.scrollY > 5460){
+        if(window.scrollY > 5700){
             document.getElementById("bus").classList.remove('active');
             document.getElementById("bus").classList.add('active2');
+            document.getElementById("waitBus").classList.add('active');
         }
 
         if(window.scrollY > 7000){
