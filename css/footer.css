@@ -1,0 +1,30 @@
+@media screen and (max-width:1920px){
+    /* footer{height: 1080px;} */
+    footer #FtLast1 h2{font-size: 32px; text-align: center; padding: 230px 0 121px 0;}
+    footer #imgBoxBundleFt{display: flex; justify-content: center;}
+    footer #imgBoxBundleFt .FtBox{text-align: center; padding: 0 50px;}
+    footer #imgBoxBundleFt .FtBox a{text-decoration: none; color: #ACACAC; font-size: 24px; }
+    footer #imgBoxBundleFt .FtBox h3{font-size: 28px; padding: 54px 0 35px 0;}
+    footer #imgBoxBundleFt .FtBox p{font-size: 30px;}
+    footer #imgBoxBundleFt .FtBox p:nth-child(4){padding-top: 33px;} 
+
+    footer #FtLast1{height: 1080px;}
+
+    footer #FtLast2{background-image: url(../img/footer2_backgruond.jpg); height: 1080px; text-align: center; color: white;}
+    footer #FtLast2 #textBoxLast{padding-top: 390px;}
+    footer #FtLast2 #textBoxLast h2{font-size: 32px; padding: 33px 0 166px 0;}
+    footer #FtLast2 #textBoxLast p{padding-bottom: 14px; font-size: 14px;}
+    footer #FtLast2 #textBoxLast p:nth-child(8){padding-bottom: 54px;}
+}
+@media screen and (max-width:1600px)
+{
+    footer{height: 900px; overflow: hidden;}
+    footer h2{font-size: 32px; text-align: center; padding-top: 230px;}
+    footer #imgBoxBundleFt{display: flex; justify-content: center;}
+    footer #imgBoxBundleFt .FtBox{text-align: center; padding: 0 35px;}
+    footer #imgBoxBundleFt .FtBox img{width: 250px; height: 250px;}
+    footer #imgBoxBundleFt .FtBox a{text-decoration: none; color: #ACACAC; font-size: 24px; }
+    footer #imgBoxBundleFt .FtBox h3{font-size: 28px; padding: 54px 0 35px 0;}
+    footer #imgBoxBundleFt .FtBox p{font-size: 30px;}
+    footer #imgBoxBundleFt .FtBox p:nth-child(4){padding-top: 33px;}
+}
