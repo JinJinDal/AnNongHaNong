@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded",function(){
         $(window).on("wheel", function(e) {
             if(mHtml.is(":animated")) return;
             if(e.originalEvent.deltaY > 0) {
-                if(page == 19) return;
+                if(page == 21) return;
                 page++;
             } else if(e.originalEvent.deltaY < 0) {
                 if(page == 1) return;

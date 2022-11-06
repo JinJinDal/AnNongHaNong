@@ -12,8 +12,9 @@
     #wrap{width: 1610px; margin: 0 auto;}
 
     header{position: fixed; width: 1610px; margin: 0 36px; z-index: 5;}
-    header nav #headerBundle{height: 100px; display: flex; align-items: center; justify-content: space-between;}
+    header nav #headerBundle{height: 100px; display: flex; align-items: center; justify-content: space-between;opacity: 1;}
+    header nav #headerBundle.headhide{height: 100px; display: flex; align-items: center; justify-content: space-between; opacity: 0;}
     header img{width: 146px; height: 30px;}
     /* header #headerLogo{background-image: url(../img/Asset1.png); width: 146px; height: 30px;} */
-    header #mp3Play{width: 50px; height: 50px;}
+    header #mp3Play{width: 50px; height: 50px; opacity: 0;}
 }

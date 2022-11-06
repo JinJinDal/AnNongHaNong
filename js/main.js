@@ -35,33 +35,39 @@ window.addEventListener("DOMContentLoaded",function(){
         if(window.scrollY > 500){
             document.getElementById("fixed6").style="opacity: 0; ";
         }
-        if(window.scrollY > 5200){
-            document.getElementById("headerLogo").style="back"
+        if(window.scrollY > 6290){
+            document.getElementById("headerBundle").classList.add("headhide");
         }
 
-        if(window.scrollY > 5249){
+        if(window.scrollY > 6290){
             document.getElementById("fixed6").style="opacity: 1; ";
         }
-        if(window.scrollY > 5500){
-            document.getElementById("fixed7").classList.remove('videoFadeIn');
-            document.getElementById("fixed7").style="position: none;"
-        }
 
-        if(window.scrollY > 5900){
+        if(window.scrollY > 7230){
             document.getElementById("fixed6").style="opacity: 0; ";
+            // document.getElementById("fixed7").classList.remove('videoFadeIn');
+        }
+        if(window.scrollY > 5800){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
+        }
+        if(window.scrollY > 6290){
+            document.getElementById("mainTitle15").classList.add('hide15');
+        }
+        if(window.scrollY > 7320){
+            document.getElementById("onBoardingBundle").classList.add('nickname');
         }
         
-        if(window.scrollY > 5818){
+        if(window.scrollY > 8230){
             document.getElementById("fixed7").classList.add('videoFadeIn');
         }
-
-        if(window.scrollY > 6301){
+        if(window.scrollY > 9440){
+            document.getElementById("headerBundle").classList.remove('headhide');
+        }
+        if(window.scrollY > 8800){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
-            
         }
 
-        if(window.scrollY > 9449){
+        if(window.scrollY > 1150){
             document.getElementById("PaperFly").classList.add('scaleUp');
             document.getElementById("PaperFly").style="right: 277px;";
         }

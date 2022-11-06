@@ -458,7 +458,7 @@
 #sct20 #mainBox20 #logo20{background-color: white; width: 404px; height: 407px; border-radius: 97px; justify-content: center; align-items: center; display: flex;}
 
 /* section21 */
-    #sct21{height: 5700px; overflow: hidden;}
+    #sct21{ overflow: hidden;}
     #sct21 #page1_21{display: flex; justify-content: center; padding: 250px 0;}
     #sct21 #page1_21 h2{font-size: 40px; padding-right: 193px;}
     #sct21 #page1_21 #textBundle21{}
@@ -483,7 +483,7 @@
 #sct21 #page3_21 #colorBundle21 .colorBox21 .textBox21{padding: 68px 0 0 76px;}
 #sct21 #page3_21 #colorBundle21 .colorBox21 .textBox21 p:nth-child(2){padding: 360px 0 12px 0;}
 
-#sct21 #page4_21{background-color: #2DB9F7; height: 1800px; position: relative; z-index: -2;}
+#sct21 #page4_21{background-color: #2DB9F7; height: 1500px; position: relative; z-index: -2;}
 #sct21 #page4_21 #circle21{position: absolute; left: 600px; top: 607px; width: 725px; height: 725px; border-radius: 50%; background-color: white; z-index: -1;}
 #sct21 #page4_21 #textBox21_3{color: white; font-size: 24px; padding: 97px 0 231px 75px;}
 #sct21 #page4_21 #textBox21_3 p:nth-child(2){padding: 75px 0 10px 0;}
