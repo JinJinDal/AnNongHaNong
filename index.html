@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
-
+    
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/main1600.css">
+    <link rel="stylesheet" href="./css/main1680.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 
     <meta property="og:title" content="안농하농">
@@ -25,38 +24,39 @@
         <nav>
             <div id="wrap">
                 <div id="headerBundle">
-                    <div><a href="#"><img src="./img/Asset1.png"></a></div>
-                    <div id="mp3Play"></div>  
+                    <div><a href="#"><img id="headerLogo" src="./img/Asset1.png"></a></div> 
+                    
+                    <div id="mp3Play"><img src="./img/sound_stop.png"></div>  
                 </div>
             </div>
         </nav>
     </header>
-        <section id="sct1">
+        <section id="sct1" class="section">
             <div id="cloudBundle1">
-                <img src="./img/cloud_2p_1.png">
-                <img src="./img/cloud_2p_1.png">
-                <img src="./img/cloud_2p_1.png">
+                <img class="cloudMove" src="./img/cloud_2p_1.png">
+                <img class="cloudMove" src="./img/cloud_2p_1.png">
+                <img class="cloudMove" src="./img/cloud_2p_1.png">
             </div>
             <div id="leafBundle1">
-                <img src="./img/leaf_6p_2.png">
-                <img src="./img/leaf_6p_1.png">
-                <img src="./img/leaf_6p_2.png">
-                <img src="./img/leaf_6p_1.png">
-                <img src="./img/leaf_6p_1.png">
+                <img class="bounce" src="./img/leaf_6p_2.png">
+                <img class="bounce" src="./img/leaf_6p_1.png">
+                <img class="bounce" src="./img/leaf_6p_2.png">
+                <img class="bounce" src="./img/leaf_6p_1.png">
+                <img class="bounce" src="./img/leaf_6p_1.png">
             </div>
             <div id="pointBundle1">
-                <img src="./img/Point1.png">
-                <img src="./img/Point2.png">
-                <img src="./img/Point3.png">
-                <img src="./img/Point4.png">
-                <img src="./img/Point5.png">
+                <img class="pointUp" src="./img/Point1.png">
+                <img class="pointUp" src="./img/Point2.png">
+                <img class="pointUp" src="./img/Point3.png">
+                <img class="pointUp" src="./img/Point4.png">
+                <img class="pointUp" src="./img/Point5.png">
             </div>
             <div id="mainPhone">
                 <div class="logo1"><img src="./img/main_logo.png"></div>
                 <h2><span>안농하농</span></h2>
                 <p class="text1">안녕한 농촌을 위해 함께하다</p>
                 <p>scroll</p>
-                <div id="scrollDown1"><img style="width: 16px; height:46px;" src="./img/linedown.png"></div>
+                <div id="scrollDown1" class="scrollDownMove"><img style="width: 16px; height:46px;" src="./img/linedown.png"></div>
             </div>
             <div id="characterBundle">
                 <img src="./img/characterGirl.png">
@@ -69,7 +69,7 @@
             </div>
         </section>
 
-        <section id="sct2">
+        <section id="sct2" class="section">
             <div class="add"><img src="./img/cloud_2p_1.png"></div>
             <div class="add"><img src="./img/cloud_2p_2.png"></div>
             <div id="textBox2">
@@ -79,48 +79,62 @@
             </div>
             <div id="imgBox2">
                 <div><img src="./img/tree_2p_1.png"></div>
-                <div><img src="./img/men_4p_1.png"></div>
+                <div id="hide1"><img src="./img/men_4p_1.png"></div>
                 <div><img src="./img/men_4p_2.png"></div>
-                <div><img src="./img/men_4p_3.png"></div>
+                <div id="hide2"><img src="./img/men_4p_3.png"></div>
                 <div><img src="./img/men_4p_4.png"></div>
-                <div><img src="./img/men_4p_5.png"></div>
+                <div id="hide3"><img src="./img/men_4p_5.png"></div>
                 <div><img src="./img/men_4p_6.png"></div>
-                <div><img src="./img/men_4p_7.png"></div>
+                <div id="hide4"><img src="./img/men_4p_7.png"></div>
                 <div><img src="./img/tree_2p_2.png"></div>
             </div>
             <div class="road2"></div>
         </section>
-        <section id="sct3">
-            <div style=" top: 240px; left: 375px;" class="add"><img style="width: 107px; height: 60px;" src="./img/cloud_2p_1.png"></div>
-            <div style=" top: 315px; right: 395px;" class="add"><img style="width: 81px; height: 45px;" src="./img/cloud_2p_2.png"></div>
+        <section id="sct3" class="section">
+            <div class="add"><img style="width: 107px; height: 60px;" src="./img/cloud_2p_1.png"></div>
+            <div class="add"><img style="width: 81px; height: 45px;" src="./img/cloud_2p_2.png"></div>
             <div id="textBox3">
                 <h2>점점 <span>낮아지는 농촌 소득</span></h2>
                 <p>농촌에 남은 시니어들은 요즘 농촌에 청년 일손이 없어 농작을 하지 못해<br>
                 농작물의 품질이 저하되어 소득을 얻기에 점점 힘들어 지고 있습니다.</p>
             </div>
-            <div style="position: absolute; bottom: 32px; left: 200px; z-index: -2;"><img src="./img/tree_3p.png"></div>
+            <div class="tree3"><img src="./img/tree_3p.png"></div>
+            <div class="oldMen"></div>
             <div id="imgBox3">
-                <div style="padding-left: 380px;"><img style="width: 170px; height:374px;" src="./img/seniorCharacter.png"></div>
-                <div><img style="width: 484px; height:87px;" src="./img/field_5p.png"></div>
-                <div style="padding-left: 290px;"><img style="width: 179px; height:122px;" src="./img/save_5p.png"></div>
-                <div style="position: absolute; z-index: -1; right: 135px;"><img style="width: 528px; height:317px;" src="./img/greenhouse_3.png"></div>
+                <div><img style="opacity: 0;" src="./img/seniorCharacter.png"></div>
+                <div><img src="./img/field_5p.png"></div>
+                <div><img src="./img/save_5p.png"></div>
+                <div><img src="./img/greenhouse_3.png"></div>
             </div>
             <div class="road3"></div>
         </section>
     
-        <section id="sct4">
+        <section id="sct4" class="section">
             <div id="textBox4">
                 <h2>점점<span>사라지는 농촌 지역</span></h2>
                 <p>점점 줄어드는 농촌 인구 감소와 고령화, 그로인한 농촌 소득감소로<br>
                 농촌 지역들이 점점 사라지고 있습니다.</p>
             </div>
+            <div id="imgBox4">
+                <div id="point1"><img src="./img/stats1.png"></div>
+                <div id="point2"><img src="./img/stats2.png"></div>
+                <div id="point3"><img src="./img/stats3.png"></div>
+                <div id="point4"><img src="./img/stats4.png"></div>
+                <div id="point5"><img src="./img/stats5.png"></div>
+                <div id="point6"><img src="./img/stats6.png"></div>
+                <div id="point7"><img src="./img/stats7.png"></div>
+                <div id="point8"><img src="./img/stats8.png"></div>
+                <div id="point9"><img src="./img/stats9.png"></div>
+                <div id="point10"><img src="./img/stats10.png"></div>
+                <div id="point11"><img src="./img/stats11.png"></div>
+            </div>
         </section>
 
-        <section id="sct5">
+        <section id="sct5" class="section">
             <div id="textBox5">
                 <h2>이를 해결할 방법,<span>2030세대의 농촌 유입</span></h2>
-                <p>낡고 옛스러운 것을 즐기는 <b>2030세대의 '러스틱 라이프' 트렌드</b>와<br>
-                <b>일손 부족의 문제점을 안고 있는 농가</b>를 연결시키는 '러스틱 여행'을 제공하여<br>
+                <p>낡고 옛스러운 것을 즐기는 <b>2030세대의 '러스틱 라이프' 트렌드</b>와
+                <b>일손 부족의 문제점을 안고 있는 농가</b>를<br>연결시키는 '러스틱 여행'을 제공하여
                 새로운 인구 유입과 농촌 활성화에 도움이 되게 합니다.</p>
             </div>
             <div id="cloudBundle5">
@@ -130,33 +144,37 @@
                 <img src="./img/cloud_5p_2.png">
             </div>
             <div id="imgBox5">
-                <img src="./img/Bus_5p.png">
-                <img src="./img/station_6p.png">
+                <div id="busMove"><img src="./img/Bus_5p.png"></div>
+                <img src="./img/station_5p.png">
                 <img src="./img/ground_5p.png">
+                <img id="Men5" src="./img/men_5p.png">
             </div>
         </section>
 
-        <section id="sct6">
-            <div id="wrap">
+        <section id="sct6" class="section">
+            <div id="fixed6">
                 <h2>2030들의 힙한 러스틱 라이프,<br>놀러가고 도와주고 함께 지키는 농촌</h2>
                 <div id="charactorBox">
-                    <img src="./img/characterHalf.png">
+                    <img src="./img/giirl_6p.png">
                     <img src="./img/seniorHi.png">
-                    <img src="./img/wavingYouth.png">
+                    <img src="./img/men_6p.png">
                 </div>
             </div>
         </section>
         
-        <section id="sct7">
-            <div id="videoBox">
-                <video controls loop src="./video/hi_1.mp4"></video>
+        <section id="sct7" class="section">
+            <div id="fixed7">
+                <div id="videoBox">
+                    <video controls loop src="./video/hi_1.mp4"></video>
+                </div>
             </div>
+            
         </section>
-        <section id="sct8">
+        <section id="sct8" class="section" style="background-image: url(./img/back_12p.png);">
             <div id="mainBox8">
                 <div class="blueBox8">
                     <div class="textBox8">
-                        <p>핵신 서비스 1.</p>
+                        <p>핵심 서비스 1.</p>
                         <p>농촌 어르신의 안농하농</p>
                         <p>오프라인 서비스</p>
                         <h2>일손구함 신청하농</h2>
@@ -166,7 +184,7 @@
                 <img src="./img/old_8p_2.png">
             </div>
         </section>
-        <section id="sct9">
+        <section id="sct9" class="section">
             <div id="textBox9">
                 <h2>농촌시니어의 도움일손 신청</h2>
                 <p>농촌시니어가 농협인력 중개센터에 일손 구인요청과 함께<br>일손 지원 시 제공하는 하숙소와 일당 금액을 수기로 기입해요</p>
@@ -181,7 +199,7 @@
             </div>
             <div class="show9"></div>
         </section>
-        <section id="sct10">
+        <section id="sct10" class="section">
             <div id="textBox10">
                 <h2>농협 인력중개센터와 연동</h2>
                 <p>안농하농 앱이 농협 인력중개센터에서<br>해당 정보를 받아 구인 프로그램을 업데이트 해요</p>
@@ -202,16 +220,18 @@
                 <img src="./img/10_Fence_1.png">
                 <img src="./img/10_Mountain_2.png">
                 <img src="./img/10_Mountain_1.png">
-                <img src="./img/10_Paper.png">
                 <div class="ground10"></div>
            </div>
+           <div id="PaperFly"><img src="./img/10_Paper.png"></div>
         </section>
 
-        <section id="sct11">
+        <section id="sct11" class="section">
             <div id="textBox11">
                 <h2>함께하는 <span>농촌활동</span></h2>
                 <p>농촌시니어는 안농하농 앱을 통해 농촌 일손구하기를 신청해<br>부족한 일손을 마련하고, 청년은 일손을 도우며 힙한 러스틱라이프를 체험해요</p>
             </div>
+            <div class="boy11"></div>
+            <div class="senior11"></div>
             <div id="imgBox11">
                 <div class="ground11"></div>
                 <img src="./img/11_senior.png">
@@ -225,123 +245,138 @@
                 <img src="./img/10_cloud_1.png">
                 <img src="./img/10_cloud_2.png">
                 <img src="./img/10_cloud_3.png">
-                <img src="./img/greenhouse_3.png">
+                <img src="./img/11_greenhouse.png">
             </div>
         </section>
 
-        <section id="sct12">
+        <section id="sct12" class="section" style="background-image: url(./img/back_12p.png);">
             <div id="mainBox12">
                 <div class="blueBox12">
                     <div class="textBox12">
-                        <p>핵신 서비스 2.</p>
+                        <p>핵심 서비스 2.</p>
                         <p>힙합 2030의 안농하농</p>
                         <p>온라인 서비스</p>
                         <h2>농촌일손 도와주농</h2>
                         <p style=" line-height: 200%;">농촌 시니어들의 일손을 도우며<br>농촌의 러스틱라이프를 직접적으로<br>체험 할 수 있는 서비스입니다.</p>  
                     </div>
                 </div>
-                <img src="./img/work_12p_2.png">
+                <img src="./img/work_12p.png">
             </div>
         </section>
 
-        <section id="sct13">
+        <section id="sct13" class="section">
+            <img class="cloud13" src="./img/10_cloud_1.png">
+            <img class="cloud13" src="./img/10_cloud_2.png">
+            <img class="cloud13" src="./img/10_cloud_3.png">
             <div id="mainBox13">
                 <div id="textBox13">
                     <h2>도와주농으로 <span>일손돕고 일당벌고</span></h2>
                     <p>도와주농은 초보자들도 배울 수 있는 쉬운 수확 작물부터<br>고급 농촌일손 <span>돕기 프로그램을 제공</span>해요</p>
                     <div id="imgBox13">
                         <img src="./img/blueberry2.png">
-                        <img src="./img/blueberryYouth.png">
+                        <div class="blueberryBoy13"></div>
                         <img src="./img/blueberry.png">
                     </div>
                 </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
+                <div id="mockUp13"><img src="./img/10_mockup.png"></div>
+                <div id="boxBundle13">
+                    <div class="blueBox13"><p>#초보자<br>맞춤 난이도</p></div>
+                    <div class="blueBox13"><p>#맞춤 일손<br>카테고리 제공</p></div>
+                    <div class="riview">
+                        <ul>
+                            <li class="riviewTitle">충주 사과 수확하기</li>
+                            <li>일손 난이도<div class="yellowBox13"></div><div class="yellowBox13"></div><div class="yellowBox13"></div></li>
+                            <li>6월5일~12일</li>
+                            <li><strong>★</strong>4.7(568)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="sct14">
+        <section id="sct14" class="section">
+            <img class="cloud14" src="./img/10_cloud_1.png">
+            <img class="cloud14" src="./img/10_cloud_2.png">
+            <img class="cloud14" src="./img/10_cloud_3.png">
             <div id="mainBox14">
                 <div id="textBox14">
-                    <h2>도와주농의 <span>농촌일손 지원 신청</span></h2>
-                    <p>안농하농에서 농촌 일손 구하기를 확인하고<br>해당 프로그램에 지원을 신청하여 농촌일을 도와워요</p>
+                    <h2>도와주농의 <span>일손돕기 혜택</span></h2>
+                    <p>농촌 일손돕기로 할인된 가격의 하숙공간과<br>일손 자원금으로 안농 머니를 지원 받을 수 있어요</p>
                     <div id="imgBox14">
-                        <img src="./img/hwusik.png">
+                        <div id="show14"></div>
                     </div>
                 </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
+                <div id="mockUp14"><img src="./img/10_mockup.png"></div>
+                <div id="boxBundle14">
+                    <div class="blueBox14"><p>#농촌일손<br>지원 신청</p></div>
+                    <div class="blueBox14"><p>#주요<br>시설 안내</p></div>
+                    <div class="blueBox14"><p>#안농머니</p></div>
+                </div>
             </div>
         </section>
 
-        <section id="sct14">
-            <div id="mainBox14">
-                <div id="textBox14">
-                    <h2>도와주농의 <span>농촌일손 지원 신청</span></h2>
-                    <p>안농하농에서 농촌 일손 구하기를 확인하고<br>해당 프로그램에 지원을 신청하여 농촌일을 도와워요</p>
-                    <div id="imgBox14">
-                        <img src="./img/hwusik.png">
-                    </div>
-                </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
-            </div>
-        </section>
-        <section id="sct16">
+        <section id="sct16" class="section">
             <div id="mainBox16">
                 <div class="blueBox16">
                     <div class="textBox16">
-                        <p>핵신 서비스 3.</p>
+                        <p>핵심 서비스 3.</p>
                         <p>힙합 2030의 안농하농</p>
                         <p>온라인 서비스</p>
                         <h2>힐링하러 놀러가농</h2>
                         <p style=" line-height: 200%;">간접적인 농촌 체험을 즐기고<br>여행하며 여유롭게 러스틱라이프를<br>즐길 수 있는 서비스 입니다.</p>  
                     </div>
                 </div>
-                <img src="./img/women_16p_1.png">
+                <img src="./img/girl_16p.png">
             </div>
         </section>
 
-        <section id="sct17">
+        <section id="sct18" class="section">
+            <img class="cloud18" style="left: 83px; top: 370px;" src="./img/10_cloud_3.png">
+            <img class="cloud18" style="right: 730px; top: 100px;" src="./img/10_cloud_2.png">
+            <img class="cloud18" style="right: 188px; top: 346px;" src="./img/10_cloud_1.png">
+            <div id="mainBox18">
+                <div id="textBox18">
+                    <h2>놀러가농의 <span>러스틱라이프 패키지</span></h2>
+                    <p>하숙소 프로그램을 통해 기존의 시골 숙박 시설보다<br><span>농촌과 밀접한 숙소를 낮은 가격으로도 장기여행</span>이 가능해요</p>
+                    <div id="imgBox18">
+                        <div class="sofaGirl18"></div>
+                    </div>
+                </div>
+                <div><img src="./img/10_mockup.png"></div>
+                <div id="boxBundle18">
+                    <div class="blueBox18"><p>#러스틱 패키지</p></div>
+                    <div class="blueBox18"><p>#하숙소</p></div>
+                    <div class="blueBox18"><p>#힐링 여행</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sct17" class="section">
+            <img class="cloud17" style="left: 50px; top: 400px;" src="./img/10_cloud_3.png">
+            <img class="cloud17" style="left: 657px; top: 116px;" src="./img/10_cloud_2.png">
+            <img class="cloud17" style="right: 115px; top: 245px;" src="./img/10_cloud_1.png">
             <div id="mainBox17">
+                <div><img style="width: 384px; height:762px;;" src="./img/10_mockup.png"></div>
                 <div id="textBox17">
-                    <h2>놀러가농의 <span>러스틱 체험 프로그램</span></h2>
-                    <p>농촌여행, 동물 돌보기, 농작물 수확, 베이킹, 간접 귀농체험 등<br><span>힐링부터 부담없이 러스틱라이프를 체험</span>할 수 있어요</p>
+                    <h2>놀러가농의 <span>러스틱라이프 패키지</span></h2>
+                    <p>청년들은 놀러가농의 러스틱 패키지 프로그램으로 하숙소를 통해 힐링 여행, 러스틱 체험<br>농촌 일손 돕기,한달살기 등 다양한 러스틱라이프를 체험할 수 있어요</p>
                     <div id="imgBox17">
-                        <img src="./img/characterMain.png">
-                        <img src="./img/17_sheep_1.png">
-                        <img src="./img/17_sheep_2.png">
-                        <img src="./img/17_sheep_3.png">
-                    </div> 
-                </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
-            </div>
-        </section>
-
-        <section id="sct18">
-            <div id="mainBox18">
-                <div id="textBox18">
-                    <h2>놀러가농의 <span>장기 러스틱 프로그램</span></h2>
-                    <p>하숙소 프로그램을 통해 기존의 시골 숙박 시설보다<br><span>농촌과 밀접한 숙소를 낮은 가격으로도 장기여행</span>이 가능해요</p>
-                    <div id="imgBox18">
-                        <img src="./img/sofaGirl.png">
+                        <!-- 힘이들면 당근을 흔들어 주세요 -->
+                        <div class="gril17"></div>
+                        <img class="sheepsk" src="./img/sheep_17p_3.png">
+                        <img class="sheepsk" src="./img/sheep_17p_4.png">
+                        <img class="sheepsk" src="./img/sheep_17p_1.png">
                     </div>
+                </div> 
+                <div id="boxBundle17">
+                    <div class="blueBox17"><p>#러스틱 패키지</p></div>
+                    <div class="blueBox17"><p>#하숙소</p></div>
+                    <div class="blueBox17"><p>#힐링 여행</p></div>
                 </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
             </div>
         </section>
 
-        <section id="sct18">
-            <div id="mainBox18">
-                <div id="textBox18">
-                    <h2>놀러가농의 <span>장기 러스틱 프로그램</span></h2>
-                    <p>하숙소 프로그램을 통해 기존의 시골 숙박 시설보다<br><span>농촌과 밀접한 숙소를 낮은 가격으로도 장기여행</span>이 가능해요</p>
-                    <div id="imgBox18">
-                        <img src="./img/sofaGirl.png">
-                    </div>
-                </div>
-                <div><img style="width: 365px; height: 755px;" src="./img/10_mockup.png"></div>
-            </div>
-        </section>
-
-        <section id="sct20">
+        <section id="sct20" class="section">
             <div id="mainBox20">
                 <div id="textBox20">
                     <p>LOGO</p>
@@ -353,57 +388,26 @@
             </div>
         </section>
         
-        <section id="sct21">
+        <section id="sct21" class="section">
             <div id="page1_21">
-                <h2><span>VISUAL IDENTITY</span></h2>
-                <div id="sct21_1">
-                    <div class="Moon1">
-                        <h3><span>Responsive</span> Logo</h3>
-                        <p>Logotype</p>
-                        <div style="padding-bottom: 35px;"><img src="./img/Asset1.png"></div>
-                        <div><img src="./img/Asset2.png"></div>
+                <h2><span>TYPEFACE</span></h2>
+                <div id="textBundle21">
+                    <div class="textBox21_1">
+                        <p class="subTitle"><strong>Pretendard</strong><br>Bold</p>
+                        <p>안녕한 농촌을 위해 함께하는<br>힙한 2030들의 러스틱 라이프를 위해</p>
                     </div>
-                    <div class="h-line"></div>
-                    <div class="Moon2">
-                        <h3><span>Title</span> Typeface</h3>
-                        <p>카페24 서라운드 Bold</p>
-                        <p>안녕한 농촌을<br>위해 함께하는<br>안농하농</p>
-                    </div>
-                    <div class="Moon3">
-                        <h3><span>Bold</span> Typeface</h3>
-                        <p>Pretendard</p>
-                        <p>일손이 필요한</p>
-                        <p>농촌 어르신들을</p>
-                        <p>위한 안농하농</p>
+                    <div class="textBox21_1">
+                        <p class="subTitle"><strong>Pretendard</strong><br>Medium</p>
+                        <p>일손이 필요한 농촌 어르신들을<br>위해 놀러가고 도와주며 함께 지키는 농촌</p>
                     </div>
                 </div>
             </div>
             <div id="page2_21">
                 <h2><span>DESIGN KEYWORD</span></h2>
-                <div id="textBoxBundle21">
-                    <div class="textBox21 first">
-                        <div><p>라운드</p></div>
-                        <div><span><p>하늘</p></span></div>
-                        <div><p>심플한</p></div>
-                        <div><p><b>친근한</b></p></div>
-                        <div><span><p>여행</p></span></div>
-                        <div><p>친근한</p></div>
-                    </div>
-                    <div class="textBox21 second">
-                        <div>농촌</div>
-                        <div><span>푸르른</span></div>
-                        <div>농촌</div>
-                        <div>안녕하세여</div>
-                        <div><b>깔끔한</b></div>
-                        <div>정겨운</div>
-                    </div>
-                    <div class="textBox21 thred">
-                        <div>청량한</div>
-                        <div><span>자연</span></div>
-                        <div><b>평화로운</b></div>
-                        <div><span>러스틱라이프</span></div>
-                        <div>시원한</div>
-                    </div>
+                <div id="keywordBox">
+                    <div id="keyword1"><img src="./img/designKeyword_1.png"></div>
+                    <div id="keyword2"><img src="./img/designKeyword_2.png"></div>
+                    <div id="keyword3"><img src="./img/designKeyword_3.png"></div>
                 </div>
             </div>
             <div  id="page3_21">
@@ -452,14 +456,15 @@
                     <p>Peaceful Sky Blue</p>
                     <p># 2DB9F7</p>
                 </div>
-                <div id="imgBox21_3">
-                    <img src="./img/21_mockup2.png">
-                    <img src="./img/21_mockup2.png">
-                    <img src="./img/21_mockup2.png">
-                    <img src="./img/21_mockup2.png">
-                    <img src="./img/21_mockup2.png">
-                    <div id="circle21"></div>
-                </div>
+                <img id="mockUpGd" src="./img/main_mockup.png">
+                    <div id="imgBox21_3">
+                        <img src="./img/21_mockup2.png">
+                        <img src="./img/21_mockup2.png">
+                        <img src="./img/21_mockup2.png">
+                        <img src="./img/21_mockup2.png">
+                        <img src="./img/21_mockup2.png">
+                    </div>
+                <div id="circle21"></div>
             </div>
         </section>
 
@@ -502,17 +507,30 @@
         
         <div id="FtLast2">
             <div id="textBoxLast">
-                <img src="./img/footer2_logo.png">
-                <h2>안녕한 농촌을 위해 <span style="color: #FFEF8F;">안농하농</span>과 함께해요.</h2>
-                <p>team name <b>일리삼사</b></p>
-                <p>Planner <b>Sim Hyun Ji</b></p>
-                <p>Designer <b>Kim Chae Yeon</b></p>
-                <p>Designer <b>Park Se Rim</b></p>
-                <p>Designer <b>An So Young</b></p>
-                <p>programmer <b>Kim Jin Woo</b></p>
-                <p>Copyright ⓒ 2022 <b>일리삼사</b> All Rights Reserved</p>
+                <ul>
+                    <li><img src="./img/footer2_logo.png"></li>
+                    <li><h2>안녕한 농촌을 위해 <span style="color: #FFEF8F;">안농하농</span>과 함께해요.</h2></li>
+                    <li><p>team name <b>일리삼사</b></p></li>
+                    <li><p>Planner <b>Sim Hyun Ji</b></p></li>
+                    <li><p>Designer <b>Kim Chae Yeon</b></p></li>
+                    <li><p>Designer <b>Park Se Rim</b></p></li>
+                    <li><p>Designer <b>An So Young</b></p></li>
+                    <li><p>programmer <b>Kim Jin Woo</b></p></li>
+                    <li><p>Copyright ⓒ 2022 <b>일리삼사</b> All Rights Reserved</p></li>
+                </ul>
             </div>
         </div>
     </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slidePagd.js"></script>
+    <script src="./js/onscroll.js"></script>
+    <script src="./js/slick.js"></script>
 </body>
 </html>

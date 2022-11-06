@@ -3,16 +3,17 @@
 
     header{position: fixed; width: 1850px; margin: 0 36px; z-index: 5;}
     header nav #headerBundle{height: 100px; display: flex; align-items: center; justify-content: space-between;}
-    header img{width: 146px; height: 30px;}
-    header #mp3Play{width: 50px; height: 50px; background-color: #bdecff; border-radius: 50%;} 
+    header img:nth-child(1){width: 146px; height: 30px;}
+    header #mp3Play img{width: 50px; height: 50px;} 
 }
 
-@media screen and (max-width:1600px)
+@media screen and (max-width:1680px)
 {
-    #wrap{width: 1530px; margin: 0 auto;}
+    #wrap{width: 1610px; margin: 0 auto;}
 
-    header{position: fixed; width: 1530px; margin: 0 36px; z-index: 5;}
+    header{position: fixed; width: 1610px; margin: 0 36px; z-index: 5;}
     header nav #headerBundle{height: 100px; display: flex; align-items: center; justify-content: space-between;}
     header img{width: 146px; height: 30px;}
-    header #mp3Play{width: 50px; height: 50px; background-color: #bdecff; border-radius: 50%;}
+    /* header #headerLogo{background-image: url(../img/Asset1.png); width: 146px; height: 30px;} */
+    header #mp3Play{width: 50px; height: 50px;}
 }

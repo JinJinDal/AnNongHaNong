@@ -17,7 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Pretendard-Regular';
+	font-family: "Ptdr";
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,4 +48,12 @@ table {
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+}
+@font-face{
+	src: url(../font/Cafe24Ssurround.ttf);
+	font-family: "cafe24";
+}
+@font-face{
+	src: url(../font/PretendardVariable.ttf);
+	font-family: "Ptdr";
 }

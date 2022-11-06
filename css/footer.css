@@ -16,15 +16,28 @@
     footer #FtLast2 #textBoxLast p{padding-bottom: 14px; font-size: 14px;}
     footer #FtLast2 #textBoxLast p:nth-child(8){padding-bottom: 54px;}
 }
-@media screen and (max-width:1600px)
+@media screen and (max-width:1680px)
 {
-    footer{height: 900px; overflow: hidden;}
-    footer h2{font-size: 32px; text-align: center; padding-top: 230px;}
+    footer{
+        /* height: 1050px; */
+         overflow: hidden;}
+    footer #FtLast1 h2{font-size: 32px; text-align: center; padding-top: 230px; font-family: "cafe24";}
+    footer #FtLast1 h2 span{font-family: "cafe24";}
     footer #imgBoxBundleFt{display: flex; justify-content: center;}
-    footer #imgBoxBundleFt .FtBox{text-align: center; padding: 0 35px;}
+    footer #imgBoxBundleFt .FtBox{text-align: center; padding: 0 35px; font-family: "Ptdr";}
     footer #imgBoxBundleFt .FtBox img{width: 250px; height: 250px;}
     footer #imgBoxBundleFt .FtBox a{text-decoration: none; color: #ACACAC; font-size: 24px; }
-    footer #imgBoxBundleFt .FtBox h3{font-size: 28px; padding: 54px 0 35px 0;}
+    footer #imgBoxBundleFt .FtBox h3{font-size: 28px; padding: 54px 0 35px 0; font-weight: bold;}
     footer #imgBoxBundleFt .FtBox p{font-size: 30px;}
+    footer #imgBoxBundleFt .FtBox p:nth-child(3){font-weight: 900;}
     footer #imgBoxBundleFt .FtBox p:nth-child(4){padding-top: 33px;}
+
+    footer #FtLast2{background-image: url(../img/footer2_backgruond.jpg); height: 1050px; text-align: center; color: white;}
+    footer #FtLast2 #textBoxLast{padding-top: 355px;}
+    footer #FtLast2 #textBoxLast li{padding-bottom: 9px; font-weight: 900; font-family: "Ptdr";}
+    footer #FtLast2 #textBoxLast li:nth-child(9){padding-top: 55px;}
+    footer #FtLast2 #textBoxLast h2{font-size: 32px; padding: 33px 0 140px 0;}
+    footer #FtLast2 #textBoxLast p{padding-bottom: 14px; font-size: 14px; font-weight: 100;}
+    footer #FtLast2 #textBoxLast b{font-weight: 900;}
+    footer #FtLast2 #textBoxLast p:nth-child(8){padding-bottom: 36px;}
 }
