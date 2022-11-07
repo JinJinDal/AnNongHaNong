@@ -67,15 +67,25 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
 
-        if(window.scrollY > 1150){
+        if(window.scrollY > 11550){
             document.getElementById("PaperFly").classList.add('scaleUp');
             document.getElementById("PaperFly").style="right: 277px;";
         }
-        if(window.scrollY > 12700){
-
+        if(window.scrollY > 14440){
+            document.getElementById("sagwa13").classList.add('opne');
+            document.getElementById("lever13").classList.add('leverAni');
+            document.getElementById("lever13_1").classList.add('leverAni');
+            document.getElementById("lever13_2").classList.add('leverAni');
+            document.getElementById("lever13_3").classList.add('leverAni');
         }
-        if(window.scrollY > 13610){
-
+        if(window.scrollY > 15550){
+            document.getElementById("bluebox1").classList.add('scale-in-center');
+            document.getElementById("bluebox2").classList.add('scale-in-center');
+            document.getElementById("whitebox1").classList.add('scale-in-center');
+            document.getElementById("whitebox2").classList.add('scale-in-center');
+            document.getElementById("whitebox3").classList.add('scale-in-center');
+            document.getElementById("blueBox14_2").classList.add('scale-in-hor-right');
+            document.getElementById("whiteBox14_2").classList.add('scale-in-hor-right');
         }
         if(window.scrollY > 15732){
 

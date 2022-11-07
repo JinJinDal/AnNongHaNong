@@ -290,16 +290,16 @@
     #sct11 #textBox11 h2 span{font-family: "cafe24";}
     #sct11 #textBox11 p{font-size: 20px; line-height: 200%; font-weight: 600;}
     
-    #sct11 .boy11{z-index: 2; position:absolute; right:356px; top:494px; width:368px; height:477px; background: url('../img/boy_60cut_368x477.png') no-repeat; background-size:cover; animation: boyrun 1s infinite steps(60);}
+    #sct11 .boy11{z-index: 2; position:absolute; right:356px; top:494px; width:368px; height:477px; background: url('../img/boy_60cut_368x477.png') no-repeat; background-size:cover; animation: boyrun 1.5s infinite steps(60);}
     @keyframes boyrun {
         100% {
-            background-position: -22068px 0;
+            background-position: -22077px 0;
         }
      }
-     #sct11 .senior11{z-index: 2; position:absolute; left:434px; top:474px; width:393px; height:487px; background: url('../img/senior_65cut_393x487.png') no-repeat; background-size:cover; animation: seniorRun 1s infinite steps(65);}
+     #sct11 .senior11{z-index: 2; position:absolute; left:434px; top:474px; width:1200px; height:1800px; background: url('../img/no_angkum_146cut_1200x1800png.png') no-repeat; background-size:cover; animation: seniorRun 1.8s infinite steps(146);}
     @keyframes seniorRun {
         100% {
-            background-position: -25543px 0;
+            background-position: -175023px 0;
         }
      }
 
@@ -320,7 +320,7 @@
     
     /* section12 */
     #sct12{height: 1050px; position: relative; background-size: cover; background-attachment: fixed; }
-    #sct12 img{width: 784px; height: 794px;}
+    #sct12 img{width: 878px; height: 794px;}
     #sct12 #mainBox12{display: flex; align-items: center; justify-content: center; padding-top: 130px;}
     #sct12 .blueBox12{width: 476px; height: 794px; background-color: #47c3fa;}
     #sct12 .blueBox12 .textBox12{color: white;  height: 673px; padding: 58px 0 0 57px; }
@@ -352,8 +352,52 @@
     }
     #sct13 #mainBox13 #boxBundle13 .blueBox13{position: absolute; background-color: #2DB9F7; padding: 15px 29px; border-radius: 50px; box-shadow: -12px 12px 20px -12px rgba(0, 0, 0, 0.35); color: white; line-height: 150%; text-align: center;}
     #sct13 #mainBox13 #boxBundle13 .blueBox13:nth-child(1){right: 570px; top: 630px;}
-    #sct13 #mainBox13 #boxBundle13 .sagwa13{position: absolute; right: 476px; bottom: 470px; z-index: -1;}
+    #sct13 #mainBox13 #boxBundle13 #sagwa13{position: absolute; right: 476px; bottom: 470px; z-index: -1; opacity: 0;}
+    #sct13 #mainBox13 #boxBundle13 #sagwa13.opne{animation: sagwa 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; opacity: 1;}
+    @keyframes sagwa {
+        0% {
+                    transform: scaleX(0);
+                    transform-origin: 100% 100%;
+            opacity: 1;
+          }
+          25%{
+                    transform: scaleX(1);
+                    transform-origin: 100% 100%;
+            opacity: 1;
+          }100%{
+                    transform: scaleX(1);
+                    transform-origin: 100% 100%;
+            opacity: 1;
+          }
+          
+        }
     
+        #sct13 #mainBox13 #boxBundle13 #lever13{position: absolute; right: 578px; top: 600px; opacity: 0;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_1{position: absolute; right: 600px; top: 660px; opacity: 0;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_2{position: absolute; right: 600px; top: 700px; opacity: 0;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_3{position: absolute; right: 600px; top: 740px; opacity: 0;}
+        #sct13 #mainBox13 #boxBundle13 #lever13.leverAni{animation: Lever 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1s; opacity: 1;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_1.leverAni{animation: Lever 2.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1s; opacity: 1;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_2.leverAni{animation: Lever 2.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1s; opacity: 1;}
+        #sct13 #mainBox13 #boxBundle13 #lever13_3.leverAni{animation: Lever 2.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1s; opacity: 1;}
+        @keyframes Lever {
+            0% {
+                transform: scaleX(0);
+                transform-origin: 0% 0%;
+                opacity: 1;    
+              }25%{
+                transform: scaleX(1);
+                transform-origin: 0% 0%;
+                opacity: 1; 
+              }100% {
+                transform: scaleX(1);
+                transform-origin: 0% 0%;
+                opacity: 1;
+              }
+            }
+
+
+
     /* section14 */
     #sct14{height: 1050px; position: relative;}
     #sct14 .cloud14{position: absolute;}
@@ -361,7 +405,7 @@
     #sct14 .cloud14:nth-child(2){right: 181px; top: 95px; z-index: -1;}
     #sct14 .cloud14:nth-child(3){right: 670px; top: 403px;}
     #sct14 #mainBox14 {display: flex; justify-content: center; align-items: flex-start; padding-top: 100px;}
-    #sct14 #mainBox14 #mockUp14{padding-left: 265px;}
+    #sct14 #mainBox14 #mockUp14{padding-left: 313px;}
     #sct14 #mainBox14 #mockUp14 img{width: 365px; height: 755px;}
     #sct14 #mainBox14 #textBox14{text-align: center; align-items: center;}
     #sct14 #mainBox14 #textBox14 h2{font-size: 36px; padding: 65px 0 43px 0; font-family: "cafe24";}
@@ -374,14 +418,48 @@
         }
      }
     #sct14 #mainBox14 #boxBundle14 .blueBox14{position: absolute; background-color: #2DB9F7; padding: 15px 29px; border-radius: 50px; box-shadow: -12px 12px 20px -12px rgba(0, 0, 0, 0.35); color: white; line-height: 150%; text-align: center;}
-    #sct14 #mainBox14 #boxBundle14 .blueBox14:nth-child(1){right: 250px; top: 260px;}
-    #sct14 #mainBox14 #boxBundle14 .blueBox14:nth-child(2){right: 680px; top: 530px;}
+    #sct14 #mainBox14 #boxBundle14 .blueBox14:nth-child(1){right: 250px; top: 260px; opacity: 0;}
+    #sct14 #mainBox14 #boxBundle14 .blueBox14:nth-child(2){right: 193px; top: 455px; opacity: 0;}
     #sct14 #mainBox14 #boxBundle14 .whiteBox14{position: absolute; background-color: white; border-radius: 10px; border: 1px solid gray; box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); color: #5F5F5F; padding: 12px 12px;}
-    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(3){right: 680px; top: 610px;}
-    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(4){right: 680px; top: 670px;}
-    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(5){right: 680px; top: 670px;}
+    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(3){right: 160px; top: 610px; opacity: 0;}
+    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(4){right: 150px; top: 670px; opacity: 0;}
+    #sct14 #mainBox14 #boxBundle14 .whiteBox14:nth-child(5){right: 137px; top: 730px; opacity: 0;}
     #sct14 #mainBox14 #boxBundle14 img{position: absolute;}
+    #sct14 #mainBox14 #boxBundle14 #whiteBox14_2{right: 652px; bottom: 469px; z-index: -1;}
+    #sct14 #mainBox14 #boxBundle14 #blueBox14_2{right: 528px; bottom: 255px; z-index: -1;}
 
+    #sct14 #mainBox14 #boxBundle14 #whiteBox14_2.scale-in-hor-right {animation: scale-in-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 3.5s;}
+    #sct14 #mainBox14 #boxBundle14 #blueBox14_2.scale-in-hor-right {animation: scale-in-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 3.7s;}
+    @keyframes scale-in-hor-right {
+        0% {
+            transform: scaleX(0);
+            transform-origin: 100% 100%;
+            opacity: 1;
+        }
+        100% {
+            transform: scaleX(1);
+            transform-origin: 100% 100%;
+            opacity: 1;
+        }
+      }
+      
+    #sct14 #mainBox14 #boxBundle14 #bluebox1.scale-in-center {animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1.3s;}
+    #sct14 #mainBox14 #boxBundle14 #bluebox2.scale-in-center {animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1.6s;}
+    #sct14 #mainBox14 #boxBundle14 #whitebox1.scale-in-center {animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1.9s;}
+    #sct14 #mainBox14 #boxBundle14 #whitebox2.scale-in-center {animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 2.2s;}
+    #sct14 #mainBox14 #boxBundle14 #whitebox3.scale-in-center {animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 2.5s;}
+
+    @keyframes scale-in-center {
+        0% {
+                  transform: scale(0);
+          opacity: 1;
+        }
+        100% {
+                  transform: scale(1);
+          opacity: 1;
+        }
+      }
+      
 
     /* section16 */
     #sct16{height: 1050px; position: relative; }
@@ -441,10 +519,12 @@
         }
      }
 
+    #sct18 #mainBox18 #boxBundle18 img{position: absolute;}
     #sct18 #mainBox18 #boxBundle18 .blueBox18{position: absolute; background-color: #2DB9F7; padding: 15px 29px; border-radius: 50px; box-shadow: -12px 12px 20px -12px rgba(0, 0, 0, 0.35); color: white; line-height: 150%; text-align: center;}
     #sct18 #mainBox18 #boxBundle18 .blueBox18:nth-child(1){right: 605px; top: 315px;}
     #sct18 #mainBox18 #boxBundle18 .blueBox18:nth-child(2){right: 185px; top: 505px;}
-    #sct18 #mainBox18 #boxBundle18 .blueBox18:nth-child(3){right: 600px; bottom: 265px;}
+
+    /* #sct18 #mainBox18 #boxBundle18 .whiteBox18{position: absolute; background-color: white; padding: 15px 29px; border: 3px solid #2DB9F7; border-radius: 50px; color: #2DB9F7; line-height: 150%; text-align: center;} */
 
     /* section19 */
     #sct19{height: 1050px; overflow: hidden; position: relative; text-align: center;}

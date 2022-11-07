@@ -11,7 +11,8 @@ window.addEventListener("DOMContentLoaded",function(){
             if(e.originalEvent.deltaY > 0) {
                 if(page == 21) return;
                 page++;
-            } else if(e.originalEvent.deltaY < 0) {
+            } 
+            else if(e.originalEvent.deltaY < 0) {
                 if(page == 1) return;
                 page--;
             }

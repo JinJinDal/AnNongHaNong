@@ -390,7 +390,7 @@
      } */
 
      /* section15 */
-    #sct15{height: 1050px; position: relative; border: 1px solid black;}
+    #sct15{height: 1050px; position: relative;}
     #sct15 #mainBox15 {display: flex; justify-content: center; align-items: center; padding-top: 100px;}
     #sct15 #mainBox15 div:nth-child(2){padding-left: 265px;}
     #sct15 #mainBox15 div:nth-child(2) img{width: 365px; height: 755px;}
