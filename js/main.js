@@ -14,6 +14,9 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("hide4").style="opacity: 0; transition: all 3s; transition-delay: 2s;";
         }
         if(window.scrollY > 3149){
+            document.getElementById("title4_1").style="opacity: 1;";
+            document.getElementById("title4_2").style="opacity: 0;";
+            document.getElementById("sub4_1").style="opacity: 0;";
             document.getElementById("point1").classList.add('Bounse');
             document.getElementById("point2").classList.add('Bounse');
             document.getElementById("point3").classList.add('Bounse');
@@ -28,6 +31,8 @@ window.addEventListener("DOMContentLoaded",function(){
         }
 
         if(window.scrollY > 4199){
+            document.getElementById("blueBox5_1").classList.add('blueBox');
+            document.getElementById("blueBox5_2").classList.add('blueBox');
             document.getElementById("busMove").classList.add('Move');
             document.getElementById("Men5").classList.add('hide5');
         }
@@ -67,7 +72,7 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
 
-        if(window.scrollY > 11550){
+        if(window.scrollY > 11540){
             document.getElementById("PaperFly").classList.add('scaleUp');
             document.getElementById("PaperFly").style="right: 277px;";
         }
@@ -79,6 +84,10 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("lever13_3").classList.add('leverAni');
         }
         if(window.scrollY > 15550){
+            document.getElementById("text14title1").style="opacity: 0;";
+            document.getElementById("text14title2").style="opacity: 1;";
+            document.getElementById("text14sub1").style="opacity: 0;";
+            document.getElementById("text14sub2").style="opacity: 1;";
             document.getElementById("bluebox1").classList.add('scale-in-center');
             document.getElementById("bluebox2").classList.add('scale-in-center');
             document.getElementById("whitebox1").classList.add('scale-in-center');
@@ -87,22 +96,42 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("blueBox14_2").classList.add('scale-in-hor-right');
             document.getElementById("whiteBox14_2").classList.add('scale-in-hor-right');
         }
-        if(window.scrollY > 15732){
-
+        if(window.scrollY > 17764){
+            document.getElementById("whiteBox1111").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_2").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
+            document.getElementById("tag18_1").classList.add('scale-in-ver-top');
+            document.getElementById("tag18_2").classList.add('scale-in-ver-top');
+            document.getElementById("tag18_3").classList.add('scale-in-ver-top');
+            document.getElementById("tag18_4").classList.add('scale-in-ver-top');
         }
-        if(window.scrollY > 16780){
-            
+        if(window.scrollY > 18732){
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
+            document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
         }
-        
-        if(window.scrollY > 20310){
+        if(window.scrollY > 18783){
+            document.getElementById("blueBox17_1").classList.add('flip-in-hor-bottom');
+            document.getElementById("blueBox17_2").classList.add('flip-in-hor-bottom');
+            document.getElementById("blueBox17_3").classList.add('flip-in-hor-bottom');
+            document.getElementById("tag17_1").classList.add('flip-in-hor-top');
+            // document.getElementById("tag17_2").classList.add('flip-in-hor-top');
+        }
+        if(window.scrollY > 20520){
+            document.getElementById("headerBundle").classList.add("headhide");
+        }
+        if(window.scrollY > 22161){
             document.getElementById("keyword1").classList.add('moveKW');
         }
-        if(window.scrollY > 20450){
+        if(window.scrollY > 22190){
             document.getElementById("keyword2").classList.add('moveKW');
         }
-        if(window.scrollY > 20610){
+        if(window.scrollY > 22220){
             document.getElementById("keyword3").classList.add('moveKW');
         }
+        
 
     }
 

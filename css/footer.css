@@ -16,8 +16,6 @@
     footer #FtLast2 #textBoxLast p{padding-bottom: 14px; font-size: 14px;}
     footer #FtLast2 #textBoxLast p:nth-child(8){padding-bottom: 54px;}
 }
-@media screen and (max-width:1680px)
-{
     footer{
         /* height: 1050px; */
          overflow: hidden;}
@@ -32,7 +30,7 @@
     footer #imgBoxBundleFt .FtBox p:nth-child(3){font-weight: 900;}
     footer #imgBoxBundleFt .FtBox p:nth-child(4){padding-top: 33px;}
 
-    footer #FtLast2{background-image: url(../img/footer2_backgruond.jpg); height: 1050px; text-align: center; color: white;}
+    footer #FtLast2{background-image: url(../img/footer2_backgruond.jpg); height: 1080px; text-align: center; color: white;}
     footer #FtLast2 #textBoxLast{padding-top: 355px;}
     footer #FtLast2 #textBoxLast li{padding-bottom: 9px; font-weight: 900; font-family: "Ptdr";}
     footer #FtLast2 #textBoxLast li:nth-child(9){padding-top: 55px;}
@@ -40,4 +38,3 @@
     footer #FtLast2 #textBoxLast p{padding-bottom: 14px; font-size: 14px; font-weight: 100;}
     footer #FtLast2 #textBoxLast b{font-weight: 900;}
     footer #FtLast2 #textBoxLast p:nth-child(8){padding-bottom: 36px;}
-}
