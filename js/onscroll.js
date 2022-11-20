@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded",function(){
         var page = 1;
         
         
-        mHtml.animate({scrollTop : 0},10);
+        mHtml.animate({scrollTop : 0},1);
 
         $(window).on("wheel", function(e) {
             if(mHtml.is(":animated")) return;

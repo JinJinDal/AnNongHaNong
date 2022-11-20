@@ -111,8 +111,8 @@
 #sct1 #mainPhone .text1 {
     font-size: 18px;
     padding-bottom: 110px;
-    font-family: "cafe24";
-    font-weight: lighter;
+    font-family: "Ptdr";
+    font-weight: bold;
 }
 #sct1 #mainPhone #scrollDown1 {
     padding-top: 20px;
@@ -2084,7 +2084,7 @@
 }
 #sct21 #page1_21 h2 {
     font-size: 40px;
-    padding-right: 193px;
+    padding:15px 193px 0 0;
 }
 #sct21 #page1_21 h2 span {
     font-family: "cafe24";
@@ -2094,9 +2094,10 @@
     display: flex;
 }
 #sct21 #page1_21 .textBox21_1 .subTitle {
-    padding-right: 148px;
+    padding:10px 148px 0 0;
     font-size: 20px;
     color: #b1b1b1;
+    line-height: 200%;
 }
 #sct21 #page1_21 .textBox21_1 .subTitle strong {
     font-size: 26px;
@@ -2118,6 +2119,11 @@
 #sct21 #page2_21 {
     text-align: center;
     height: 550px;
+}
+#sct21 #page2_21 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 175px;
 }
 #sct21 #keywordBox {
     display: flex;
@@ -2189,7 +2195,7 @@
 #sct21 #page4_21 #circle21 {
     position: absolute;
     left: 600px;
-    top: 510px;
+    top: 550px;
     width: 725px;
     height: 725px;
     border-radius: 50%;

@@ -1,5 +1,4 @@
-@media screen and (max-width:1920px) {
-    span {
+span {
         color: #2db9f7;
     }
     .add {
@@ -99,10 +98,10 @@
         bottom: 190px;
         left: 42%;
     }
-    #sct1 #mainPhone .logo1 img {
+    /* #sct1 #mainPhone .logo1 img {
         width: 82px;
         height: 80px;
-    }
+    } */
     #sct1 #mainPhone h2 {
         font-size: 40px;
         padding: 70px 0 20px;
@@ -1793,4 +1792,3 @@
         width: 496px;
         height: 1006px;
     }
-}
