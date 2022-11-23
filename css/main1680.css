@@ -709,7 +709,7 @@
     display: flex;
 }
 #sct7 video {
-    width: 1680px;
+    width: 1920px;
     height: 1080px;
 }
 
@@ -731,6 +731,20 @@
     align-items: center;
     justify-content: center;
     padding-top: 130px;
+    position: relative;
+}
+.plusList{
+    position: absolute;
+    bottom: 3%;
+    right: 18%;
+}
+.plusList li{
+    background-color: white;
+    border-radius: 16.5px;
+    padding: 8px 15px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
 }
 #sct8 .blueBox8 {
     width: 476px;
@@ -1092,6 +1106,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 130px;
+    position: relative;
 }
 #sct12 .blueBox12 {
     width: 476px;
@@ -1543,6 +1558,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 130px;
+    position: relative;
 }
 #sct16 .blueBox16 {
     width: 476px;
@@ -2026,7 +2042,7 @@
     width: 45px;
     height: 99px;
     top: 641px;
-    right: 389px;
+    right: 370px;
     z-index: -1;
 }
 
@@ -2077,6 +2093,9 @@
 #sct21 {
     overflow: hidden;
 }
+#textBundle21 div:nth-child(1) p:nth-child(2){
+    font-family: 'cafe24';
+}
 #sct21 #page1_21 {
     display: flex;
     justify-content: center;
@@ -2089,7 +2108,6 @@
 #sct21 #page1_21 h2 span {
     font-family: "cafe24";
 }
-#sct21 #page1_21 #textBundle21 {}
 #sct21 #page1_21 .textBox21_1 {
     display: flex;
 }
@@ -2098,6 +2116,9 @@
     font-size: 20px;
     color: #b1b1b1;
     line-height: 200%;
+}
+#sct21 #page1_21 .textBox21_1:nth-child(1){
+    font-family: cafe24;
 }
 #sct21 #page1_21 .textBox21_1 .subTitle strong {
     font-size: 26px;
@@ -2216,17 +2237,22 @@
 #sct21 .partMotion21 {
     position: absolute;
 }
+#page5_21
 
 #sct22 {
     position: relative;
     overflow: hidden;
-    background-color: #f3f3f3;
+    background-color: #f0faff;
+    height: 2300px;
+}
+#sct22 #mockUpBundle22{
+    position: relative;
     height: 2300px;
 }
 #sct22 img {
     transform: scale(80%);
     position: absolute;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 7px 11px 10px 0 rgb(0 0 0 / 35%);
     border-radius: 40px;
 }
 #sct22 #mockUp22_1 {
@@ -2269,15 +2295,24 @@
 #sct23 {
     height: 1265px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+#sct23 div{
+    position: absolute;
+    top: 820px;
+    left: 400px;
+
 }
 #sct23 #background23 {
-    height: 1265px;
-    width: 1920px;
+    bottom: 1px;
+    left: 1px;
+    position: absolute;
+    width: 1117px;
+    height: 1024px;
 }
 #sct23 img:nth-child(2) {
     position: absolute;
-    left: 300px;
+    left: -70px;
     bottom: 371px;
     z-index: 2;
 }
