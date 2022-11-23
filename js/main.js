@@ -52,29 +52,28 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("fixed6").style="opacity: 0; ";
             // document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
-        if(window.scrollY > 5800){
-            document.getElementById("fixed7").classList.remove('videoFadeIn');
-        }
         if(window.scrollY > 6290){
             document.getElementById("mainTitle15").classList.add('hide15');
         }
         if(window.scrollY > 7320){
             document.getElementById("onBoardingBundle").classList.add('nickname');
         }
-        
+        if(window.scrollY > 7793){
+            document.getElementById("fixed7").classList.remove('videoFadeIn');
+        }
         if(window.scrollY > 8230){
             document.getElementById("fixed7").classList.add('videoFadeIn');
-        }
-        if(window.scrollY > 9440){
-            document.getElementById("headerBundle").classList.remove('headhide');
         }
         if(window.scrollY > 8800){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
+        if(window.scrollY > 9440){
+            document.getElementById("headerBundle").classList.remove('headhide');
+        }
 
         if(window.scrollY > 11540){
             document.getElementById("PaperFly").classList.add('scaleUp');
-            document.getElementById("PaperFly").style="right: 277px;";
+            // document.getElementById("PaperFly").style="right: 277px;";
         }
         if(window.scrollY > 14440){
             document.getElementById("sagwa13").classList.add('opne');

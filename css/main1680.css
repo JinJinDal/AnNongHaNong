@@ -687,9 +687,11 @@
     position: fixed;
     top: -1px;
     opacity: 0;
+    transform: scale(0);
 }
 #sct7 #fixed7.videoFadeIn {
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-fill-mode: forwards;
 }
 @keyframes scale-up-center {
     0% {
@@ -929,7 +931,8 @@
     transition: all 3s ease;
 }
 #sct10 #PaperFly.scaleUp {
-    animation: scale-up-bl 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-bl 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-iteration-count: infinite;
 }
 @keyframes scale-up-bl {
     0% {
@@ -943,6 +946,7 @@
     100% {
         transform: scale(0.5);
         transform-origin: 0 100%;
+        right: 277px;
     }
 }
 
@@ -1322,7 +1326,7 @@
 }
 #sct13 #mainBox13 #mockUp13 img {
     height: 758px;
-    width: 369px;
+    width: 420px;
 }
 
 /* section14 */
@@ -1356,7 +1360,7 @@
     padding-left: 313px;
 }
 #sct14 #mainBox14 #mockUp14 img {
-    width: 365px;
+    width: 420px;
     height: 755px;
 }
 #sct14 #mainBox14 #textBox14 {
@@ -1625,6 +1629,7 @@
     font-size: 20px;
     padding-bottom: 150px;
     font-weight: bold;
+    line-height: 150%;
 }
 
 #sct17 #mainBox17 #imgBox17 {
@@ -1769,10 +1774,10 @@
     height: 781px;
 }
 #sct18 #mainBox18 div:nth-child(2) {
-    padding-left: 265px;
+    padding-left: 300px;
 }
 #sct18 #mainBox18 div:nth-child(2) img {
-    width: 384px;
+    width: 420px;
     height: 762px;
 }
 #sct18 #mainBox18 #textBox18 {
@@ -2139,7 +2144,7 @@
 
 #sct21 #page2_21 {
     text-align: center;
-    height: 550px;
+    height: 690px;
 }
 #sct21 #page2_21 h2 {
     font-size: 40px;
@@ -2159,7 +2164,7 @@
     top: 1px;
 }
 #sct21 #keywordBox #keyword1.moveKW {
-    left: 125px;
+    left: 513px;
     top: 1px;
     transition: all 1s;
 }
@@ -2168,7 +2173,7 @@
     top: 170px;
 }
 #sct21 #keywordBox #keyword2.moveKW {
-    right: 100px;
+    right: 367px;
     top: 170px;
     transition: all 1s;
 }
@@ -2177,7 +2182,7 @@
     top: 340px;
 }
 #sct21 #keywordBox #keyword3.moveKW {
-    left: 100px;
+    left: 456px;
     top: 340px;
     transition: all 1s;
 }
@@ -2237,7 +2242,32 @@
 #sct21 .partMotion21 {
     position: absolute;
 }
-#page5_21
+#page5_21{
+    height: 830px;
+    text-align: center;
+}
+#page5_21 h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding:300px 0 115px 0;
+
+}
+#page5_21 h2 span{
+    font-family: "cafe24";
+}
+#page5_21 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 126px;
+}
+#page5_21 ul{
+    margin-bottom: 95px;
+}
+#page5_21 li{
+    float: left;
+    margin-right: 126px;
+}
 
 #sct22 {
     position: relative;
@@ -2296,6 +2326,7 @@
     height: 1265px;
     position: relative;
     /* overflow: hidden; */
+    background-color: #f0faff;
 }
 #sct23 div{
     position: absolute;
