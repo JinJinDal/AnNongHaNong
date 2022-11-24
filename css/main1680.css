@@ -2039,6 +2039,7 @@
     top: 676px;
     left: 400px;
     z-index: -2;
+background-color: white;
     border-top: 1px solid black;
     position: absolute;
 }
