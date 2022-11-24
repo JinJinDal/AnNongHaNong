@@ -2046,6 +2046,7 @@
     position: absolute;
     border: 1px solid black;
     border-right: none;
+    background-color: white;
     width: 45px;
     height: 99px;
     top: 641px;
