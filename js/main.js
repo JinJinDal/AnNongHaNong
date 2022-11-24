@@ -61,10 +61,10 @@ window.addEventListener("DOMContentLoaded",function(){
         if(window.scrollY > 7793){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
-        if(window.scrollY > 8230){
+        if(window.scrollY > 9000){
             document.getElementById("fixed7").classList.add('videoFadeIn');
         }
-        if(window.scrollY > 8800){
+        if(window.scrollY > 9300){
             document.getElementById("fixed7").classList.remove('videoFadeIn');
         }
         if(window.scrollY > 9440){
@@ -111,7 +111,7 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
             document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
         }
-        if(window.scrollY > 18783){
+        if(window.scrollY > 20500){
             document.getElementById("blueBox17_1").classList.add('flip-in-hor-bottom');
             document.getElementById("blueBox17_2").classList.add('flip-in-hor-bottom');
             document.getElementById("blueBox17_3").classList.add('flip-in-hor-bottom');

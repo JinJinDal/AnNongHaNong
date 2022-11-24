@@ -4,7 +4,7 @@
     
     /* section1 */
     #sct1 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct1 #cloudBundle1 img {
@@ -121,7 +121,7 @@
 #sct1 #characterBundle {
     position: absolute;
     bottom: 0;
-    left: 530px;
+    left: 580px;
     bottom: 150px;
 }
 #sct1 #characterBundle img {
@@ -151,7 +151,7 @@
     
     /* section2 */
     #sct2 {
-    height: 1080px;
+    height: 1152px;
     width: 100%;
     position: relative;
 }
@@ -177,7 +177,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-top: 67px;
+    padding-top: 142px;
 }
 
 #sct2 div:nth-child(1) {
@@ -204,7 +204,7 @@
     /* section3 */
    #sct3 {
     width: 100%;
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct3 .add {
@@ -233,7 +233,7 @@
     align-items: flex-end;
     position: relative;
     justify-content: center;
-    bottom: 247px;
+    bottom: 175px;
 }
 #sct3 #imgBox3 div {
     padding: 0 38px;
@@ -301,7 +301,7 @@
     
     /* section4 */ 
    #sct4 {
-    height: 1080px;
+    height: 1152px;
     overflow: hidden;
     position: relative;
 }
@@ -310,7 +310,7 @@
     padding-top: 229px;
 }
 #sct4 #textBox4 #title4_1 {
-    left: 525px;
+    left: 620px;
     top: 260px;
     font-size: 100px;
     font-weight: bold;
@@ -483,7 +483,7 @@
     
     /* section5 */
     #sct5 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
     overflow: hidden;
 }
@@ -547,15 +547,16 @@
     }
 }
 #sct5 #imgBox5 img:nth-child(2) {
-    left: 40%;
+    left: 42%;
     bottom: 174px;
 }
 #sct5 #imgBox5 img:nth-child(3) {
     bottom: 0;
     z-index: -1;
+    width: 2048px;
 }
 #sct5 #imgBox5 img:nth-child(4) {
-    left: 803px;
+    left: 886px;
     bottom: 120px;
     opacity: 0;
 }
@@ -585,7 +586,7 @@
 
     /* section6 */
 #sct6 {
-    height: 1080px;
+    height: 1152px;
     background-color: #2db9f7;
     position: relative;
     overflow: hidden;
@@ -599,7 +600,7 @@
     font-family: "cafe24";
 }
 #sct6 #charactorBox {
-    bottom: -665px;
+    bottom: -730px;
     position: absolute;
 }
 #sct6 #charactorBox img {
@@ -633,7 +634,7 @@
 
 /* section몇이냐 */
 #sct15 {
-    height: 1080px;
+    height: 1152px;
     background-color: #2db9f7;
     position: relative;
     overflow: hidden;
@@ -678,7 +679,7 @@
 
 /* section7 */
 #sct7 {
-    height: 1080px;
+    height: 1152px;
     background-color: #2db9f7;
     position: relative;
     overflow: hidden;
@@ -711,15 +712,15 @@
     display: flex;
 }
 #sct7 video {
-    width: 1920px;
-    height: 1080px;
+    width: 2048px;
+    height: 1152px;
 }
 
 /* section15 */
 
 /* section8 */
 #sct8 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -738,7 +739,7 @@
 .plusList{
     position: absolute;
     bottom: 3%;
-    right: 18%;
+    right: 21%;
 }
 .plusList li{
     background-color: white;
@@ -781,7 +782,7 @@
 
 /* section9 */
 #sct9 {
-  height: 1080px;
+  height: 1152px;
   position: relative;
 }
 #sct9 #textBox9 {
@@ -800,7 +801,7 @@
 #sct9 .show9 {
   position: absolute;
   left: 710px;
-  top: 594px;
+  top: 666px;
   width: 400px;
   height: 200px;
   background: url("../img/9_39cut_400x200.png") no-repeat;
@@ -845,7 +846,7 @@
 }
 /* section10 */
 #sct10 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct10 #textBox10 {
@@ -867,12 +868,12 @@
 }
 #sct10 #imgBox10 img:nth-child(1) {
     right: 371px;
-    top: 620px;
+    top: 675px;
     z-index: 2;
 }
 #sct10 #imgBox10 img:nth-child(2) {
     left: 244px;
-    top: 643px;
+    top: 730px;
     z-index: 2;
 }
 #sct10 #imgBox10 img:nth-child(3) {
@@ -926,7 +927,7 @@
 }
 #sct10 #PaperFly {
     position: absolute;
-    right: 1020px;
+    right: 1200px;
     bottom: 170px;
     transition: all 3s ease;
 }
@@ -968,7 +969,7 @@
 
 /* section11 */
 #sct11 {
-  height: 1080px;
+  height: 1152px;
   position: relative;
 }
 #sct11 #textBox11 {
@@ -991,8 +992,8 @@
 #sct11 .boy11 {
   z-index: 2;
   position: absolute;
-  right: 356px;
-  top: 533px;
+  right: 444px;
+  top: 610px;
   width: 368px;
   height: 477px;
   background: url("../img/boy_60cut_368x477.png") no-repeat;
@@ -1007,8 +1008,8 @@
 #sct11 .senior11 {
   z-index: 2;
   position: absolute;
-  left: -7px;
-  top: -153px;
+  left: 22px;
+  top: -72px;
   width: 1200px;
   height: 1800px;
   background: url("../img/no_angkum_146cut_1200x1800png.png") no-repeat;
@@ -1096,7 +1097,7 @@
 
 /* section12 */
 #sct12 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -1145,7 +1146,7 @@
 
 /* section13 */
 #sct13 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
     overflow: hidden;
 }
@@ -1170,7 +1171,7 @@
     align-items: flex-end;
 }
 #sct13 #mainBox13 #mockUp13 {
-    padding-left: 265px;
+    padding-left: 348px;
 }
 #sct13 #mainBox13 #textBox13 {
     text-align: center;
@@ -1202,7 +1203,7 @@
 #sct13 #mainBox13 #textBox13 #imgBox13 .blueberryBoy13 {
     position: absolute;
     left: 444px;
-    bottom: 70px;
+    bottom: 153px;
     width: 400px;
     height: 600px;
     background: url("../img/boy_13_copy.png") no-repeat;
@@ -1230,8 +1231,8 @@
 }
 #sct13 #mainBox13 #boxBundle13 #sagwa13 {
   position: absolute;
-  right: 585px;
-  bottom: 470px;
+  right: 683px;
+  bottom: 535px;
   z-index: -1;
   opacity: 0;
 }
@@ -1266,19 +1267,19 @@
 }
 #sct13 #mainBox13 #boxBundle13 #lever13_1 {
   position: absolute;
-  right: 737px;
+  right: 776px;
   top: 660px;
   opacity: 0;
 }
 #sct13 #mainBox13 #boxBundle13 #lever13_2 {
   position: absolute;
-  right: 737px;
+  right: 776px;
   top: 700px;
   opacity: 0;
 }
 #sct13 #mainBox13 #boxBundle13 #lever13_3 {
   position: absolute;
-  right: 737px;
+  right: 777px;
   top: 740px;
   opacity: 0;
 }
@@ -1331,7 +1332,7 @@
 
 /* section14 */
 #sct14 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct14 .cloud14 {
@@ -1357,7 +1358,7 @@
     padding-top: 174px;
 }
 #sct14 #mainBox14 #mockUp14 {
-    padding-left: 313px;
+    padding-left: 349px;
 }
 #sct14 #mainBox14 #mockUp14 img {
     width: 420px;
@@ -1550,7 +1551,7 @@
 
 /* section16 */
 #sct16 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct16 img {
@@ -1597,7 +1598,7 @@
 
 /* section17 */
 #sct17 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct17 .cloud17 {
@@ -1690,17 +1691,17 @@
     text-align: center;
 }
 #sct17 #mainBox17 #boxBundle17 #blueBox17_1 {
-    left: 240px;
+    left: 284px;
     top: 315px;
     opacity: 0;
 }
 #sct17 #mainBox17 #boxBundle17 #blueBox17_2 {
-    left: 675px;
+    left: 750px;
     top: 505px;
     opacity: 0;
 }
 #sct17 #mainBox17 #boxBundle17 #blueBox17_3 {
-    left: 256px;
+    left: 300px;
     bottom: 265px;
     opacity: 0;
 }
@@ -1727,7 +1728,7 @@
 
 #sct17 #mainBox17 #boxBundle17 #tag17_1 {
     position: absolute;
-    left: 690px;
+    left: 763px;
     bottom: 304px;
     opacity: 0;
 }
@@ -1756,7 +1757,7 @@
 
 /* section18 */
 #sct18 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
 }
 #sct18 .cloud18 {
@@ -1774,7 +1775,7 @@
     height: 781px;
 }
 #sct18 #mainBox18 div:nth-child(2) {
-    padding-left: 300px;
+    padding-left: 407px;
 }
 #sct18 #mainBox18 div:nth-child(2) img {
     width: 420px;
@@ -1800,7 +1801,7 @@
 }
 #sct18 #mainBox18 #imgBox18 .sofaGirl18 {
     position: absolute;
-    left: 190px;
+    left: 297px;
     top: 403px;
     width: 540px;
     height: 540px;
@@ -1926,7 +1927,7 @@
 }
 /* section19 */
 #sct19 {
-    height: 1080px;
+    height: 1152px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -2007,6 +2008,7 @@
     bottom: 0;
     left: 0;
     z-index: -1;
+    width: 2048px;
 }
 #sct19 .bus19 {
     position: absolute;
@@ -2029,13 +2031,13 @@
     position: absolute;
     width: 1250px;
     top: 560px;
-    left: 290px;
+    left: 425px;
     z-index: -1;
 }
 #sct19 .line19_2 {
     width: 1196px;
     top: 676px;
-    left: 290px;
+    left: 400px;
     z-index: -1;
     border-top: 1px solid black;
     position: absolute;
@@ -2047,13 +2049,13 @@
     width: 45px;
     height: 99px;
     top: 641px;
-    right: 370px;
+    right: 406px;
     z-index: -1;
 }
 
 /* section20 */
 #sct20 {
-    height: 1080px;
+    height: 1152px;
     position: relative;
     background-color: #2DB9F7;
     display: flex;
@@ -2200,7 +2202,7 @@
     display: flex;
 }
 #sct21 #page3_21 #colorBundle21 .colorBox21 {
-    width: 387px;
+    width: 410px;
     height: 566px;
     color: white;
     font-size: 24px;
@@ -2220,8 +2222,8 @@
 }
 #sct21 #page4_21 #circle21 {
     position: absolute;
-    left: 600px;
-    top: 550px;
+    left: 661px;
+    top: 595px;
     width: 725px;
     height: 725px;
     border-radius: 50%;
@@ -2234,7 +2236,7 @@
     padding: 97px 0 231px 75px;
 }
 .partMotion21{
-  width: 1920px;
+  width: 2048px;
 }
 #sct21 #page4_21 #textBox21_3 p:nth-child(2) {
     padding: 75px 0 10px;
@@ -2331,7 +2333,7 @@
 #sct23 div{
     position: absolute;
     top: 1160px;
-    left: 400px;
+    left: 450px;
 
 }
 #sct23 #background23 {
@@ -2352,5 +2354,5 @@
     overflow: hidden;
 }
 #sct24 img {
-    width: 1920px;
+    width: 2048px;
 }
