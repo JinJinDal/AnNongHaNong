@@ -2273,53 +2273,53 @@
     position: relative;
     overflow: hidden;
     background-color: #f0faff;
-    height: 2300px;
+    height: 2500px;
 }
 #sct22 #mockUpBundle22{
     position: relative;
     height: 2300px;
 }
 #sct22 img {
-    transform: scale(80%);
+    /* transform: scale(80%); */
     position: absolute;
-    box-shadow: 7px 11px 10px 0 rgb(0 0 0 / 35%);
+    /* box-shadow: 7px 11px 10px 0 rgb(0 0 0 / 35%); */
     border-radius: 40px;
 }
 #sct22 #mockUp22_1 {
     left: 184px;
-    top: 230px;
+    top: 330px;
 }
 #sct22 #mockUp22_2 {
     left: 607px;
-    top: 451px;
+    top: 551px;
 }
 #sct22 #mockUp22_3 {
     left: 1015px;
-    top: 1px;
+    top: 101px;
 }
 #sct22 #mockUp22_4 {
     left: 1400px;
-    top: 331px;
+    top: 431px;
 }
 #sct22 #mockUp22_5 {
     left: 184px;
-    top: 815px;
+    top: 1115px;
 }
 #sct22 #mockUp22_6 {
     left: 607px;
-    top: 1049px;
+    top: 1349px;
 }
 #sct22 #mockUp22_7 {
     left: 1015px;
-    top: 602px;
+    top: 902px;
 }
 #sct22 #mockUp22_8 {
     left: 1400px;
-    top: 929px;
+    top: 1229px;
 }
 #sct22 #mockUp22_9 {
     left: 1015px;
-    top: 1220px;
+    top: 1720px;
 }
 
 #sct23 {
@@ -2330,7 +2330,7 @@
 }
 #sct23 div{
     position: absolute;
-    top: 820px;
+    top: 1160px;
     left: 400px;
 
 }
