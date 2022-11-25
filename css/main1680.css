@@ -562,7 +562,7 @@
 }
     
     #sct5 #cloudBundle5 img{position: absolute; z-index: -2;}
-    /* #sct5 #cloudBundle5 img:nth-child(1){} */
+    #sct5 #cloudBundle5 img:nth-child(1){bottom: 160px;}
     #sct5 #cloudBundle5 img:nth-child(2){right: 0;}
     #sct5 #cloudBundle5 img:nth-child(3){left: 167px; top: 352px;}
     #sct5 #cloudBundle5 img:nth-child(4){right: 270px; top: 200px;}
@@ -601,6 +601,7 @@
 }
 #sct6 #charactorBox {
     bottom: -730px;
+    left: 100px;
     position: absolute;
 }
 #sct6 #charactorBox img {
