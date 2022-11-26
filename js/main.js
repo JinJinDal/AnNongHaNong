@@ -7,13 +7,13 @@ window.addEventListener("DOMContentLoaded",function(){
             // document.getElementById("senior1").classList.add('active');
         }
 
-        if(window.scrollY > 1049){
+        if(window.scrollY > 1110){
             document.getElementById("hide1").style="opacity: 0; transition: all 3s; transition-delay: 2s;";
             document.getElementById("hide2").style="opacity: 0; transition: all 3s; transition-delay: 2s;";
             document.getElementById("hide3").style="opacity: 0; transition: all 3s; transition-delay: 2s;";
             document.getElementById("hide4").style="opacity: 0; transition: all 3s; transition-delay: 2s;";
         }
-        if(window.scrollY > 3149){
+        if(window.scrollY > 3400){
             document.getElementById("title4_1").style="opacity: 1;";
             document.getElementById("title4_2").style="opacity: 0;";
             document.getElementById("sub4_1").style="opacity: 0;";
@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("point11").classList.add('Bounse');
         }
 
-        if(window.scrollY > 4199){
+        if(window.scrollY > 4480){
             document.getElementById("blueBox5_1").classList.add('blueBox');
             document.getElementById("blueBox5_2").classList.add('blueBox');
             document.getElementById("busMove").classList.add('Move');
@@ -75,14 +75,14 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("PaperFly").classList.add('scaleUp');
             // document.getElementById("PaperFly").style="right: 277px;";
         }
-        if(window.scrollY > 14440){
+        if(window.scrollY > 16000){
             document.getElementById("sagwa13").classList.add('opne');
             document.getElementById("lever13").classList.add('leverAni');
             document.getElementById("lever13_1").classList.add('leverAni');
             document.getElementById("lever13_2").classList.add('leverAni');
             document.getElementById("lever13_3").classList.add('leverAni');
         }
-        if(window.scrollY > 15550){
+        if(window.scrollY > 17000){
             document.getElementById("text14title1").style="opacity: 0;";
             document.getElementById("text14title2").style="opacity: 1;";
             document.getElementById("text14sub1").style="opacity: 0;";
@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("blueBox14_2").classList.add('scale-in-hor-right');
             document.getElementById("whiteBox14_2").classList.add('scale-in-hor-right');
         }
-        if(window.scrollY > 17764){
+        if(window.scrollY > 19000){
             document.getElementById("whiteBox1111").classList.add('scale-in-hor-center');
             document.getElementById("blueBox18_2").classList.add('scale-in-hor-center');
             document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
@@ -111,7 +111,7 @@ window.addEventListener("DOMContentLoaded",function(){
             document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
             document.getElementById("blueBox18_1").classList.add('scale-in-hor-center');
         }
-        if(window.scrollY > 20500){
+        if(window.scrollY > 20600){
             document.getElementById("blueBox17_1").classList.add('flip-in-hor-bottom');
             document.getElementById("blueBox17_2").classList.add('flip-in-hor-bottom');
             document.getElementById("blueBox17_3").classList.add('flip-in-hor-bottom');
@@ -121,13 +121,13 @@ window.addEventListener("DOMContentLoaded",function(){
         if(window.scrollY > 20520){
             document.getElementById("headerBundle").classList.add("headhide");
         }
-        if(window.scrollY > 22161){
+        if(window.scrollY > 23400){
             document.getElementById("keyword1").classList.add('moveKW');
         }
-        if(window.scrollY > 22190){
+        if(window.scrollY > 23550){
             document.getElementById("keyword2").classList.add('moveKW');
         }
-        if(window.scrollY > 22220){
+        if(window.scrollY > 23700){
             document.getElementById("keyword3").classList.add('moveKW');
         }
         

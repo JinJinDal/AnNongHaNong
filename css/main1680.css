@@ -2078,6 +2078,7 @@ background-color: white;
     font-size: 64px;
     padding: 35px 0 88px;
     font-weight: bold;
+    font-family: "cafe24";
 }
 #sct20 #mainBox20 #textBox20 p:nth-child(1) {
     font-size: 32px;
