@@ -4,7 +4,7 @@
     
     /* section1 */
     #sct1 {
-    height: 1152px;
+    height: 100vh;
     position: relative;
 }
 #sct1 #cloudBundle1 img {
@@ -121,7 +121,8 @@
 #sct1 #characterBundle {
     position: absolute;
     bottom: 0;
-    left: 580px;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 150px;
 }
 #sct1 #characterBundle img {
@@ -136,7 +137,7 @@
 #sct1 #bushBundle {
     position: absolute;
     bottom: 150px;
-    left: 360px;
+    left: 15%;
     z-index: -1;
 }
 #sct1 #bushBundle img:nth-child(1) {
@@ -148,10 +149,8 @@
     width: 414px;
     height: 226px;
 }
-    
-    /* section2 */
-    #sct2 {
-    height: 1152px;
+#sct2 {
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -801,14 +800,14 @@
 
 #sct9 .show9 {
   position: absolute;
-  left: 710px;
-  top: 666px;
+  left: 34%;
+  bottom: 19%;
   width: 400px;
   height: 200px;
   background: url("../img/9_39cut_400x200.png") no-repeat;
   background-size: cover;
   animation: run 1.8s infinite steps(39);
-  transform: scale(300%);
+  transform: scale(220%);
 }
 @keyframes run {
   100% {
@@ -1692,7 +1691,7 @@
     text-align: center;
 }
 #sct17 #mainBox17 #boxBundle17 #blueBox17_1 {
-    left: 284px;
+    left: 8%;
     top: 315px;
     opacity: 0;
 }
@@ -2032,7 +2031,7 @@
     position: absolute;
     width: 1250px;
     top: 560px;
-    left: 425px;
+    left: 15%;
     z-index: -1;
 }
 #sct19 .line19_2 {
@@ -2052,7 +2051,7 @@ background-color: white;
     width: 45px;
     height: 99px;
     top: 641px;
-    right: 406px;
+    right: 19%;
     z-index: -1;
 }
 
